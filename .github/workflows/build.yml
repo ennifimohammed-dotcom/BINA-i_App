@@ -19,7 +19,7 @@ jobs:
         run: rm -rf android
 
       - name: Recreate Flutter project (Android embedding v2)
-        run: flutter create .
+        run: flutter create . --project-name bina_i_app
 
       - name: Get dependencies
         run: flutter pub get
